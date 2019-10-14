@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0540811b-32e2-4274-93d1-fd95fec09044" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OjBA2ziOw110LCeGeQ9ivYxEVE" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-server-standalone-2.44.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ScreenshotGallery">
+    <configuration name="ScreenshotFoldersMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Screenshot.ScreenshotFoldersMerge" />
+      <module name="SeleniumA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Screenshot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScreenshotGallery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Screenshot.ScreenshotGallery" />
+      <module name="SeleniumA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Screenshot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebDriver_Testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.WebDriver_Testing" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TakeScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Screenshot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Screenshot" />
+      <option name="MAIN_CLASS_NAME" value="Screenshot.TakeScreenshot" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/home/innoraft/Amir/Browserstack/SeleniumA/src/test/java/Screenshot/TakeScreenshot.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumA" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/Screenshot/TakeScreenshot.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ScreenshotGallery" />
+        <item itemvalue="Application.ScreenshotFoldersMerge" />
+        <item itemvalue="TestNG./home/innoraft/Amir/Browserstack/SeleniumA/src/test/java/Screenshot/TakeScreenshot.xml" />
+        <item itemvalue="TestNG.TakeScreenshot" />
+        <item itemvalue="JUnit.WebDriver_Testing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0540811b-32e2-4274-93d1-fd95fec09044" name="Default Changelist" comment="" />
+      <created>1564480978548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564480978548</updated>
+    </task>
+    <servers />
+  </component>
+</project>

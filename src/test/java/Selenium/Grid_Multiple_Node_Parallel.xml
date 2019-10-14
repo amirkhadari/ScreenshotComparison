@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel Tests" verbose="1" thread-count="4" parallel="tests">
+    <test name="MAC+IE9 Test">
+        <parameter name="platform" value="MAC" />
+        <parameter name="browser" value="Internet Explorer" />
+        <parameter name="version" value="9.0" />
+        <parameter name="node" value="5577" />
+        <parameter name="url" value="http://dl.dropbox.com/u/55228056/bmicalculator.html"/>
+        <classes>
+            <class name="Selenium.Grid_Multiple_Node_Parallel" />
+        </classes>
+    </test>
+    <test name="Mac+Chrome Test">
+        <parameter name="platform" value="MAC" />
+        <parameter name="browser" value="Chrome" />
+        <parameter name="version" value="37.0" />
+        <parameter name="node" value="5577" />
+        <parameter name="url" value="http://dl.dropbox.com/u/55228056/bmicalculator.html"/>
+        <classes>
+            <class name="Selenium.Grid_Multiple_Node_Parallel" />
+        </classes>
+    </test>
+    <test name="Windows+Chrome Test">
+        <parameter name="platform" value="Windows" />
+        <parameter name="browser" value="Chrome" />
+        <parameter name="version" value="37.0" />
+        <parameter name="node" value="5544" />
+        <parameter name="url" value="http://dl.dropbox.com/u/55228056/bmicalculator.html"/>
+        <classes>
+            <class name="Selenium.Grid_Multiple_Node_Parallel" />
+        </classes>
+    </test>
+    <test name="Windows+IE9 Test">
+        <parameter name="platform" value="Windows" />
+        <parameter name="browser" value="Internet Explorer" />
+        <parameter name="version" value="9.0" />
+        <parameter name="node" value="5544" />
+        <parameter name="url" value="http://dl.dropbox.com/u/55228056/bmicalculator.html"/>
+        <classes>
+            <class name="Selenium.Grid_Multiple_Node_Parallel" />
+        </classes>
+    </test>
+</suite>

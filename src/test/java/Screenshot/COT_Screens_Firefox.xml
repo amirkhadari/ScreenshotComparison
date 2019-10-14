@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="2">
+    <test name="test1">
+        <parameter name="Role" value="Student"/>
+        <parameter name="Username" value="anna@anna.com"/>
+        <parameter name="Password" value="annalu"/>
+        <parameter name="BaseUrl" value="http://homeschoolstg.prod.acquia-sites.com/"/>
+        <parameter name="SiteLevel" value="HomeSchoolStg"/>
+        <parameter name="ExcelFile" value="COTUrl.xlsx"/>
+        <classes>
+            <class name="Screenshot.COT_Screens_Firefox" />
+        </classes>
+    </test>
+    <test name="Test2">
+        <parameter name="Role" value="Teacher"/>
+        <parameter name="Username" value="satishmirle"/>
+        <parameter name="Password" value="marketing1234"/>
+        <parameter name="BaseUrl" value="http://homeschoolstg.prod.acquia-sites.com/"/>
+        <parameter name="SiteLevel" value="HomeSchoolStg"/>
+        <parameter name="ExcelFile" value="COTUrl.xlsx"/>
+        <classes>
+            <class name="Screenshot.COT_Screens_Firefox"/>
+        </classes>
+    </test>
+    <!--<test name="test3">-->
+        <!--<parameter name="Role" value="SchoolAdmin"/>-->
+        <!--<parameter name="Username" value="dewanzeng"/>-->
+        <!--<parameter name="Password" value="marketing1234"/>-->
+        <!--<parameter name="BaseUrl" value="http://homeschoolstg.prod.acquia-sites.com/"/>-->
+        <!--<parameter name="SiteLevel" value="HomeSchoolStg"/>-->
+        <!--<parameter name="ExcelFile" value="COTUrl.xlsx"/>-->
+        <!--<classes>-->
+            <!--<class name="Screenshot.COT_Screens_Firefox" />-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="Test4">-->
+        <!--<parameter name="Role" value="CotAdmin"/>-->
+        <!--<parameter name="Username" value="admin"/>-->
+        <!--<parameter name="Password" value="CollegeOnTrackSinfinity"/>-->
+        <!--<parameter name="BaseUrl" value="http://homeschoolstg.prod.acquia-sites.com/"/>-->
+        <!--<parameter name="SiteLevel" value="HomeSchoolStg"/>-->
+        <!--<parameter name="ExcelFile" value="COTUrl.xlsx"/>-->
+        <!--<classes>-->
+            <!--<class name="Screenshot.COT_Screens_Firefox"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>
